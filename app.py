@@ -1,7 +1,8 @@
 import skops.io as sio
 import gradio as gr
 
-pipe = sio.load("bank_marketing_pipe.skops", trusted=True)
+#pipe = sio.load("bank_marketing_pipe.skops", trusted=True)
+pipe = sio.load('sgd_bank_marketing_pipe.skops', trusted=True)
 
 classes = [
     "Not Subscribe",
